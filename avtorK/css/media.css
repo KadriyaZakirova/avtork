@@ -1,0 +1,1076 @@
+@media (max-width: 1200px) {
+
+    /* hero */
+    .hero_content {
+        height: 717px;
+    }
+
+    .hero_content-title {
+        font-size: 85px;
+        width: 799px;
+
+        margin-bottom: 25px;
+    }
+
+    .hero_content-subtitle {
+        font-size: 30px;
+        width: 707px;
+    }
+
+    .hero_btn {
+        width: 215px;
+    }
+
+    /* hero */
+    /* write */
+    .t581__arrow-icon {
+        width: 45px;
+        fill: #ffee05;
+        bottom: 0;
+        position: absolute;
+        top: 42%;
+        left: 24%;
+    }
+
+    /* write */
+}
+
+@media (max-width: 991px) {
+
+    /* typestour */
+    .typestour_cards-btn {
+        width: 300px;
+    }
+
+    /* typestour */
+    /* hotel */
+    .hotel_content-subtitle {
+        width: 452px;
+    }
+
+    .hotel_left {
+        height: 720px;
+    }
+
+    /* hotel */
+    /* write  */
+    .t581__arrow-icon {
+        top: 43%;
+        left: 19%;
+    }
+
+    /* write  */
+
+    /* footer */
+
+    .footer_card {
+        width: 190px;
+        height: 161px;
+    }
+
+    /* footer */
+}
+
+@media (max-width: 778px) {
+
+    /* header */
+    .header_link {
+        font-size: 17px;
+        margin-right: 10px;
+    }
+
+    /* header */
+    /* hero  */
+    .hero_content {
+        height: 447px;
+    }
+
+
+    .hero_content-title {
+        font-size: 65px;
+        line-height: 79px;
+
+    }
+
+    .hero {
+        height: 95vh;
+
+    }
+
+    .hero_content-title {
+        font-size: 51px;
+        line-height: 60px;
+        margin-bottom: 0;
+    }
+
+    .hero_content-subtitle {
+        font-size: 26px;
+        width: 508px;
+        margin-bottom: 20px;
+    }
+
+    .hero_btn {
+        width: 157px;
+    }
+
+    /* hero  */
+    /* typestour */
+    .typestour_img {
+        height: 224px;
+    }
+
+    .typestour_cards-btn {
+        width: 232px;
+    }
+
+    .typestour_cards-subtitle {
+        width: 230px;
+
+    }
+
+    .typestour_cards-subtitletwo {
+        margin-bottom: 39px;
+        width: 156px;
+    }
+
+    /* typestour */
+    /* jeep */
+    .jeep_content-subtitle {
+        font-size: 26px;
+        width: 690px;
+
+    }
+
+    /* jeep */
+    /* hotel */
+    .hotel_right-img {
+        height: 250px;
+    }
+
+    .hotel_left {
+        height: 539px;
+    }
+
+    .hotel_content-title {
+        font-size: 37px;
+    }
+
+    .hotel_content-subtitle {
+        width: 352px;
+    }
+
+    /* hotel */
+    /* write */
+    .write_content-title {
+        font-size: 43px;
+        margin-bottom: 5px;
+    }
+
+    .write_content-subtitle {
+        font-size: 22px;
+        width: 479px;
+        margin-bottom: 15px;
+    }
+
+    .write_btn-one {
+        width: 188px;
+    }
+
+    .write_btn-two {
+        width: 188px;
+    }
+
+    .t581__arrow-icon {
+        top: 56%;
+        left: 17%;
+    }
+
+    /* write */
+    /* footer */
+    .t581__arrow-icon {
+        left: 17%;
+    }
+
+    .footer_right-img {
+        width: 175px;
+    }
+
+    .footer_card {
+        width: 142px;
+
+    }
+
+    /* footer */
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 570px;
+    }
+
+    /* header */
+    .header {
+        padding-top: 39px;
+    }
+
+    .header_link {
+        font-size: 13px;
+        margin-right: 3px;
+    }
+
+    /* header */
+    /* hero  */
+
+    .hero_content-title {
+        font-size: 51px;
+        line-height: 62px;
+        width: 592px;
+    }
+
+    .hero_content-subtitle {
+        width: 415px;
+        margin-bottom: 15px;
+    }
+
+    .hero_btn {
+        width: 138px;
+        height: 42px;
+        font-size: 13px;
+
+    }
+
+    /* hero  */
+    /* typestour */
+    .typestour_img {
+        height: 160px;
+    }
+
+    .typestour_cards-title {
+        font-size: 16px;
+        line-height: 19px;
+        margin: 17px 0;
+    }
+
+    .typestour_cards-btn {
+        width: 170px;
+    }
+
+    .typestour_cards-subtitle {
+        width: 170px;
+        font-size: 14px;
+        line-height: 117%;
+    }
+
+    .typestour_cards-subtitletwo {
+        width: 148px;
+        font-size: 14px;
+        line-height: 117%;
+        margin-bottom: 54px;
+    }
+
+    .typestour {
+        padding: 50px 0 50px;
+    }
+
+    .typestour_info-title {
+        font-size: 30px;
+        margin-bottom: 11px;
+    }
+
+    .typestour_cards-btn {
+        height: 34px;
+    }
+
+    /* typestour */
+    /* jeep */
+    .jeep {
+        height: 83vh;
+    }
+
+    .jeep_content {
+
+        height: 471px;
+    }
+
+    .jeep_content-title {
+        font-size: 38px;
+        margin-bottom: 24px;
+    }
+
+    .jeep_content-subtitle {
+        font-size: 22px;
+        width: 538px;
+    }
+
+    .jeep_content-btn {
+        width: 201px;
+        height: 39px;
+        font-size: 15px;
+    }
+
+
+
+    /* jeep */
+    /* hotel */
+    .hotel_right-img {
+        height: 215px;
+    }
+
+    .hotel_left {
+        height: 426px;
+    }
+
+    .hotel_content-title {
+        font-size: 29px;
+    }
+
+    .hotel_content-subtitle {
+        width: 272px;
+        font-size: 16px;
+        line-height: 154%;
+    }
+
+    /* hotel */
+    /* write */
+
+    .write_content-title {
+        font-size: 41px;
+        line-height: 28px;
+    }
+
+    .write_content-subtitle {
+        font-size: 18px;
+        line-height: 150%;
+        width: 446px;
+        margin-bottom: 30px;
+    }
+
+    .t581__arrow-icon {
+        top: 50%;
+        left: 9%;
+        width: 38px;
+    }
+
+    .write_btn-one {
+        width: 166px;
+        height: 33px;
+        margin-right: 16px;
+    }
+
+    .write_btn-two {
+        width: 166px;
+        height: 33px;
+    }
+
+    /* write */
+    /* footer */
+    .footer .row {
+        flex-wrap: wrap;
+        margin: 0 -10px -40px 0;
+    }
+
+    .footer .col-3 {
+        width: 50%;
+        padding: 0 10px 40px 0;
+    }
+
+    .footer_card {
+        width: 265px;
+    }
+
+    /* footer */
+}
+
+@media (max-width: 544px) {
+    /* header */
+
+    .header {
+        padding-top: 25px;
+    }
+
+    .header_link {
+        font-size: 17px;
+    }
+
+    .header_link:hover {
+        color: #f07f15;
+
+    }
+
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 40px;
+        z-index: 9;
+    }
+
+    .menu-wrap {
+        visibility: hidden;
+        opacity: 0;
+
+    }
+
+    .menu-wrap.menu_active {
+
+        visibility: visible;
+        opacity: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #7776d9;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 9;
+        transition: all 0.7s;
+    }
+
+    .menu-wrap.menu_active .menu a {
+        display: block;
+        text-align: center;
+        margin: auto;
+        z-index: 9;
+        padding-top: 30px;
+    }
+
+
+    /* header */
+
+    /* typestour */
+    .typestour_content {
+        height: 203px;
+    }
+
+    .typestour .row {
+        flex-wrap: wrap;
+    }
+
+    .typestour .col-4 {
+        width: 100%;
+    }
+
+    .typestour_img {
+        height: 320px;
+    }
+
+    .typestour_cards-title {
+        font-size: 25px;
+
+    }
+
+    .typestour_cards-subtitle {
+        width: 452px;
+        font-size: 15px;
+    }
+
+    .typestour_cards-subtitletwo {
+        width: 452px;
+        font-size: 15px;
+        margin-bottom: 24px;
+    }
+
+    .typestour_cards-btn {
+        width: 299px;
+    }
+
+    /* typestour */
+    /* jeep */
+    .jeep_content-title {
+        font-size: 39px;
+    }
+
+    .jeep_content-subtitle {
+        font-size: 21px;
+        width: 454px;
+    }
+
+    /* jeep */
+    /* hotel */
+    .hotel_right-img {
+        height: 171px;
+    }
+
+    .hotel_left {
+        height: 371px;
+    }
+
+    .hotel_content-subtitle {
+        width: 233px;
+        font-size: 15px;
+        line-height: 134%;
+    }
+
+    .hotel_content-title {
+        font-size: 26px;
+    }
+
+    /* hotel */
+    /* write */
+    .write_content-title {
+        font-size: 39px;
+        line-height: 18px;
+        margin-bottom: 23px;
+    }
+
+    .write_content-subtitle {
+        font-size: 16px;
+        width: 387px;
+    }
+
+    .write_content {
+        height: 295px;
+    }
+
+    /* write */
+    /* footer */
+    .footer_info {
+        font-size: 14px;
+    }
+
+    .footer_text {
+        font-size: 14px;
+    }
+
+    .footer_adres-number {
+        font-size: 14px;
+
+    }
+
+    /* footer */
+}
+
+@media (max-width: 480px) {
+
+    /* hero */
+    .hero {
+        height: 79vh;
+    }
+
+    .hero_content {
+        height: 382px;
+    }
+
+    .hero_content-title {
+        font-size: 44px;
+        line-height: 54px;
+        width: 460px;
+    }
+
+    .hero_content-subtitle {
+        width: 361px;
+        font-size: 20px;
+    }
+
+    .hero_btn {
+        width: 116px;
+        height: 35px;
+        font-size: 12px;
+    }
+
+    /* hero */
+    /* typestour */
+    .typestour_info-subtitle {
+        font-size: 15px;
+    }
+
+    .typestour_cards-subtitle {
+        width: 395px;
+    }
+
+    .typestour_cards-subtitletwo {
+        width: 395px;
+    }
+
+    /* typestour */
+    /* jeep */
+    .jeep {
+        height: 68vh;
+    }
+
+    .jeep_content {
+        height: 385px;
+    }
+
+    .jeep_content-subtitle {
+        font-size: 17px;
+        width: 369px;
+        margin-bottom: 15px;
+    }
+
+    .jeep_content-btn {
+        width: 141px;
+        height: 36px;
+        font-size: 14px;
+    }
+
+    /* jeep */
+    /* hotel */
+
+    .hotel {
+        padding: 10px 0 10px;
+
+    }
+
+    .hotel .row {
+        flex-wrap: wrap;
+        margin: -5px 0;
+    }
+
+    .hotel .col-6 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .hotel .row {
+        flex-wrap: wrap;
+        margin: -5px 0;
+    }
+
+    .hotel_right-center {
+        margin-bottom: 5px;
+    }
+
+    .hotel_left {
+        height: 511px;
+    }
+
+    .hotel_content-subtitle {
+        width: 158px;
+        font-size: 16px;
+        line-height: 158%;
+        letter-spacing: 1px;
+    }
+
+    .hotel_content-title {
+        font-size: 21px;
+    }
+
+    /* hotel */
+    /* write */
+    .write_content-subtitle {
+        font-size: 16px;
+        width: 390px;
+        margin-bottom: 23px;
+    }
+
+    .write_btn-one {
+        width: 142px;
+        height: 33px;
+        margin-right: 3px;
+        font-size: 14px;
+    }
+
+    .write_btn-two {
+        width: 142px;
+        height: 33px;
+        font-size: 14px;
+    }
+
+    /* write */
+    /* footer */
+    .footer_adres-number {
+        font-size: 13px;
+    }
+
+    .footer_card {
+        width: 210px;
+    }
+
+    /* footer */
+    /* hotel */
+}
+
+@media (max-width: 420px) {
+    .header_logo {
+        font-size: 15px;
+    }
+
+    .header_logo-text {
+        font-size: 15px;
+    }
+
+    /* hero */
+    .hero {
+        height: 60vh;
+    }
+
+    .hero_content {
+        height: 275px;
+    }
+
+    .hero_content-title {
+        font-size: 37px;
+        line-height: 40px;
+        width: auto;
+    }
+
+    .hero_content-subtitle {
+        width: 335px;
+        font-size: 18px;
+    }
+
+    .hero_btn {
+        width: 110px;
+        height: 29px;
+        font-size: 10px;
+    }
+
+    /* hero */
+    /* typestour */
+    .typestour-linetop {
+        width: 350px;
+        margin-bottom: 11px;
+    }
+
+    .typestour_info-title {
+        font-size: 26px;
+        margin-bottom: 6px;
+    }
+
+    .typestour_info {
+        height: 169px;
+    }
+
+    .typestour_info-subtitle {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .typestour {
+        padding: 0 0 14px;
+    }
+
+    .typestour_content {
+        height: 174px;
+    }
+
+    .typestour_cards-title {
+        font-size: 19px;
+    }
+
+    .typestour_cards-subtitle {
+        width: 319px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .typestour_cards-subtitletwo {
+        width: 319px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    /* typestour */
+    /* jeep */
+    .jeep {
+        height: 56vh;
+    }
+
+    .jeep_content {
+        height: 316px;
+    }
+
+    .jeep_content-subtitle {
+        font-size: 15px;
+        width: 278px;
+        margin-bottom: 10px;
+        letter-spacing: 0;
+    }
+
+    .jeep_content-title {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+
+    .jeep_content-btn {
+        width: 124px;
+        height: 27px;
+        font-size: 11px;
+    }
+
+
+    /* jeep */
+    /* hotel */
+    .hotel_left {
+        height: 488px;
+    }
+
+    .hotel_content-title {
+        font-size: 19px;
+    }
+
+    .hotel_content-subtitle {
+        font-size: 12px;
+    }
+
+    /* hotel */
+    /* write */
+    .write {
+        height: 34vh;
+    }
+
+    .write_content {
+        height: 208px;
+    }
+
+    .write_content-title {
+        font-size: 30px;
+        margin-bottom: 14px;
+    }
+
+    .write_content-subtitle {
+        font-size: 13px;
+        width: 312px;
+        margin-bottom: 7px;
+    }
+
+    .write_btn-one {
+        width: 114px;
+        height: 29px;
+        margin-right: 3px;
+        font-size: 12px;
+    }
+
+    .write_btn-two {
+        width: 114px;
+        height: 29px;
+        margin-right: 3px;
+        font-size: 12px;
+    }
+
+    /* write */
+    /* footer */
+    .footer_info {
+        font-size: 12px;
+    }
+
+    .footer_text {
+        font-size: 12px;
+    }
+
+    .footer_right-adres {
+        font-size: 12px;
+    }
+
+    .footer_adres-number {
+        font-size: 12px;
+    }
+
+    .footer_card {
+        width: 187px;
+    }
+
+    .footer_line-top {
+        height: 2px;
+        width: 333px;
+        margin-bottom: 21px;
+    }
+
+    /* footer */
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 345px;
+    }
+
+    /* header */
+    .menu-btn span:nth-child(1) {
+        width: 22px;
+        height: 2px;
+        margin-top: -10px;
+    }
+
+    .menu-btn span:nth-child(2) {
+        width: 17px;
+        height: 2px;
+        margin-top: -6px;
+    }
+
+    .menu-btn span:nth-child(3) {
+        width: 13px;
+        height: 2px;
+        margin-top: -2px;
+    }
+
+    /* header */
+    /* hero */
+    .hero {
+        height: 49vh;
+    }
+
+    .hero_content {
+        height: 156px;
+    }
+
+    .hero_content-title {
+        font-size: 32px;
+        line-height: 35px;
+        width: auto;
+        margin-bottom: 0;
+    }
+
+    .hero_content-subtitle {
+        width: 278px;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    /* hero */
+    /* typestour */
+    .typestour_info {
+        height: 131px;
+    }
+
+    .typestour-linetop {
+        width: 302px;
+        margin-bottom: 0px;
+        height: 2px;
+    }
+
+    .typestour_info-title {
+        font-size: 21px;
+        margin-bottom: 0;
+    }
+
+    .typestour-line {
+        height: 2px;
+        width: 167px;
+        margin-bottom: 14px;
+    }
+
+    .typestour_content {
+        height: 130px;
+    }
+
+    .typestour_info-subtitle {
+        font-size: 10px;
+    }
+
+    .typestour_cards-title {
+        font-size: 18px;
+        margin: 6px 0;
+    }
+
+    .typestour_img {
+        height: 220px;
+    }
+
+    .typestour_cards-subtitle {
+        width: 285px;
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+
+    .typestour_cards-subtitletwo {
+        width: 285px;
+        font-size: 10px;
+        margin-bottom: 4px;
+    }
+
+    .typestour_cards-btn {
+        width: 185px;
+        height: 25px;
+    }
+
+    /* typestour */
+    /* jeep */
+    .jeep {
+        height: 44vh;
+    }
+
+    .jeep_content {
+        height: 250px;
+    }
+
+    .jeep_content-title {
+        font-size: 27px;
+        margin-bottom: 10px;
+    }
+
+    .jeep_content-subtitle {
+        font-size: 13px;
+        width: 308px;
+        margin-bottom: 10px;
+
+    }
+
+    .jeep_content-btn {
+        width: 132px;
+        height: 29px;
+        font-size: 12px;
+    }
+
+    /* jeep */
+    /* hotel */
+    .hotel_right-img {
+        height: 129px;
+    }
+
+    .hotel_left {
+        height: 376px;
+    }
+
+    .hotel_content-title {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .hotel_content-subtitle {
+        font-size: 11px;
+    }
+
+    /* hotel */
+    /* write */
+    .write {
+        height: 26vh;
+    }
+
+    .write_content {
+        height: 156px;
+    }
+
+    .write_content-title {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .t581__arrow-icon {
+        top: 47%;
+        left: 12%;
+        width: 32px;
+    }
+
+    .write_btn-one {
+        width: 101px;
+        height: 27px;
+        font-size: 11px;
+    }
+
+    .write_btn-two {
+        width: 101px;
+        height: 27px;
+        margin-right: 2px;
+        font-size: 11px;
+    }
+
+    /* write */
+    /* footer */
+    .footer_right-img {
+        width: 136px;
+    }
+
+    .footer_card {
+        width: 161px;
+    }
+
+    .footer .col-3 {
+        padding: 0 10px 14px 0;
+    }
+
+    /* footer */
+}

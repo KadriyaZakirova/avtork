@@ -1,0 +1,527 @@
+@import "./fonts.css";
+
+/* BASE CONFIG */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.row {
+    display: flex;
+    margin: 0 -20px;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 10px 10px;
+
+}
+
+.col-6 {
+    width: 50%;
+    padding: 10px 5px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 24px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-c {
+    justify-content: space-between;
+}
+
+/* BASE CONFIG */
+
+/* MOBILE MENU */
+.mobile-menu {
+    display: none;
+}
+
+.menu-btn {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.menu-btn span:nth-child(1) {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -11px;
+}
+
+.menu-btn span:nth-child(2) {
+    display: block;
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -6px;
+}
+
+.menu-btn span:nth-child(3) {
+    display: block;
+    width: 15px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1px;
+}
+
+/* MOBILE MENU */
+/* hero */
+.hero {
+
+    background: linear-gradient(90deg, rgb(133 109 207 / 45%) 0%, rgb(72 59 46 / 33%) 100%), url(../img/Song-kul-lake.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 90px;
+}
+
+.hero_content-title {
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #fff;
+    width: 921px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero_content-subtitle {
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    width: 596px;
+    margin-bottom: 40px;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 632px;
+    justify-content: center;
+
+}
+
+.hero_btn {
+    width: 142px;
+    height: 46px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #201581;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+.hero_btn:hover {
+    background: #f3db03;
+    color: rgb(80, 80, 80);
+
+}
+
+/* hero */
+/* header */
+.header {
+    display: flex;
+    padding-top: 75px;
+    justify-content: space-around;
+}
+
+.header_logo {
+    width: 135px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #201581;
+    color: #fff;
+    padding-left: 8px;
+}
+
+.header_logo-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #201581;
+    padding: 0 10px;
+
+
+}
+
+.header_link {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.header_link:hover {
+    color: #f07f15;
+
+}
+
+/* header */
+/*  popular */
+.popular {
+    padding: 40px 0 20px;
+    background: #d5d1cd7d;
+}
+
+.popular_text-title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 87px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgb(255, 190, 62);
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.popular_img-one {
+    background: linear-gradient(90deg, rgb(2 2 2 / 45%) 0%, rgb(72 59 46 / 33%) 100%), url(../img/sarychelekk.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 350px;
+    box-shadow: -10px -10px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.popular_img-two {
+    background: linear-gradient(90deg, rgb(2 2 2 / 45%) 0%, rgb(72 59 46 / 33%) 100%), url(../img/sary-too.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 350px;
+    box-shadow: -10px -10px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.popular_img-tree {
+    background: linear-gradient(90deg, rgb(2 2 2 / 45%) 0%, rgb(72 59 46 / 33%) 100%), url(../img/soncol2.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 350px;
+    box-shadow: -10px -10px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular_img-four {
+    background: linear-gradient(90deg, rgb(2 2 2 / 45%) 0%, rgb(72 59 46 / 33%) 100%), url(../img/pik_lenina.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 350px;
+    box-shadow: -10px -10px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular_img-fife {
+    background: linear-gradient(90deg, rgb(2 2 2 / 45%) 0%, rgb(72 59 46 / 33%) 100%), url(../img/Kol-Tor-Lake-2.jpeg) no-repeat center/cover;
+    width: 100%;
+    height: 350px;
+    box-shadow: -10px -10px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular_img-six {
+    background: linear-gradient(90deg, rgb(2 2 2 / 45%) 0%, rgb(72 59 46 / 33%) 100%), url(../img/alaarcha.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 350px;
+    box-shadow: -10px -10px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular_title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 129%;
+    text-align: center;
+    color: #ffbe3e;
+    width: 405px;
+    margin-bottom: 20px;
+}
+
+.popular_subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 146%;
+    text-align: center;
+    color: #ffffff;
+    width: 300px;
+
+}
+
+/*  popular */
+/* plus */
+.plus {
+    padding: 25px 0 20px;
+    background: #d5d1cd7d;
+
+}
+
+.plus_content-title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 129%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+
+}
+
+.plus_img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.plus_title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 146%;
+    color: #000000;
+}
+
+.plus_subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 126%;
+    color: #000000;
+    width: 650px;
+}
+
+.plus_text {
+    margin-bottom: 30px;
+
+}
+
+.plus_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.plus_line {
+    background-color: rgb(2, 2, 2);
+    height: 3px;
+    width: 850px;
+    margin-bottom: 20px;
+}
+
+/* plus */
+/* application */
+.application {
+    background: linear-gradient(90deg, rgb(2 2 2 / 45%) 0%, rgb(72 59 46 / 33%) 100%), url(../img/gory.jpg) no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.application_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 750px;
+}
+
+.application_content-title {
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 129%;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.application_content-subtitle {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 126%;
+    color: #fff;
+    width: 610px;
+    text-align: center;
+}
+
+.application_content-inp {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 126%;
+    color: #000000;
+    width: 471px;
+    height: 53px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.application_content-btn {
+    width: 471px;
+    height: 53px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #fff;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-top: 20px;
+    background: #f36f03;
+}
+
+.application_content-btn:hover {
+    background: #f35003;
+    color: #fff;
+}
+
+/* application */
+/* footer */
+.footer {
+    padding: 50px 0 20px;
+    background: #d5d1cd7d;
+
+}
+
+.footer_line {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_line-top {
+    background-color: rgb(0 0 0 / 87%);
+    height: 4px;
+    width: 620px;
+    margin-bottom: 45px;
+}
+
+.footer_info {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #32201c;
+    margin-left: 10px;
+
+}
+
+.footer .d-flex {
+    margin-bottom: 20px;
+}
+
+
+.footer_location-img {
+    height: 19px;
+    width: 16px;
+}
+
+.footer_icons {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.footer_right-adres {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #32201c;
+    margin-bottom: 20px;
+}
+
+.footer_adres-number {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #32201c;
+
+}
+
+.footer_adres-number:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.footer_link:hover {
+    text-decoration: underline;
+    color: #000000;
+}
+
+.footer_text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: #32201c;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* footer */
